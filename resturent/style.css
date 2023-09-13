@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-image: url(https://www.thelalit.com/wp-content/uploads/2019/05/The-Bakery-Desktop-Banner-Kolkata.jpg;);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 0 0 20px;
+    color: #fff;
+}
+.reservation-form {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #76777d;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+    height: 80vh;
+
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+    color: #f0f0f0;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    width: 180%;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+button {
+    width: 180%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form button{
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 180%;
+    transition: background-color .5s;
+}
+.form button:hover{
+   
+    background-color: #2679b0;
+    border: 2px solid #2679b0;
+}
